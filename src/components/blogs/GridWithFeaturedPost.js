@@ -76,7 +76,7 @@ export default ({
         "https://miro.medium.com/fit/c/256/256/2*IAHCMMz5FSeOkFPr1xa4QQ.jpeg",
       title: "My Thoughts in a Blog",
       description:
-        "Here are some things that I'm currently working and qwriting about on the state of this thing we call the Internet",
+        "Here are some things that I'm currently working and writing about on the state of this thing we call the Internet",
       authorName: "Protik Sarkar",
       authorProfile: "Medium",
       url: "https://medium.com/@sarkar.protik",

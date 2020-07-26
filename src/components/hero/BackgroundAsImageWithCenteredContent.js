@@ -74,12 +74,10 @@ export default () => {
         <Content>
           <Heading>
             Hi! I'm Protik Sarkar
-            <div style={{ justifyItems: 'center', alignItems: 'center',  }}>
-              <img style={{ width: 100 || 'auto', height: 'auto', borderRadius: '10%', justifySelf: 'center', marginTop: 10, display: 'inline', backgroundColor: 'white'}} src={'https://res.cloudinary.com/dbcjs8bca/image/upload/v1593472086/large_image_85a4339b93.png'} />
+            <div style={{backgroundColor: '',  borderRadius: '50%'}}>
+              <img style={{display:'inline', width: 100, height: 'audo', justifyContent: 'center', alignItems: 'center', backgroundColor: '', borderRadius: '10%'}} src={'https://res.cloudinary.com/dbcjs8bca/image/upload/v1593472086/large_image_85a4339b93.png'} />
             </div>
-            <br />
-
-             I'm a Frontend Developer based in Stockholm
+            I'm a Frontend Developer based in Stockholm
           </Heading>
           {/* <PrimaryAction>Search Events Near Me</PrimaryAction> */}
         </Content>

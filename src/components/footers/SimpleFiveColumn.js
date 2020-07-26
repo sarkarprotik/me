@@ -4,7 +4,7 @@ import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
 
 import LogoImage from "../../images/logo.svg";
-import { ReactComponent as InstagramIcon } from "images/instagram-icon.svg";
+import { ReactComponent as InstagramIcon } from "../../images/instagram-icon.svg";
 import { ReactComponent as TwitterIcon } from "../../images/twitter-icon.svg";
 import { ReactComponent as GithubIcon } from "../../images/github-icon.svg";
 
@@ -48,18 +48,15 @@ export default () => {
             Here are my social Links Feel free to DM me
           </CompanyDescription>
           <SocialLinksContainer>
-            <SocialLink target='_blank' href="https://www.instagram.com/protik_s/" >
-              <InstagramIcon />
-            </SocialLink>
             <SocialLink target='_blank' href="https://twitter.com/ProtikSarkar1">
               <TwitterIcon />
+            </SocialLink>
+            <SocialLink target='_blank' href="https://www.instagram.com/protik_s/" >
+              <InstagramIcon />
             </SocialLink>
             <SocialLink target='_blank' href="https://github.com/sarkarprotik">
               <GithubIcon />
             </SocialLink>
-            {/* <SocialLink href="https://youtube.com">
-              <YoutubeIcon />
-            </SocialLink> */}
           </SocialLinksContainer>
         </WideColumn>
         <Column>
