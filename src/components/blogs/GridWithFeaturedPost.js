@@ -11,6 +11,7 @@ import blog1 from '../../images/blog1.png'
 import blog2 from '../../images/blog2.png'
 import blog3 from '../../images/blog3.png'
 import blog4 from '../../images/blog4.png'
+import blog6 from '../../images/blog6.png'
 
 const HeadingContainer = tw.div`text-center`;
 const Subheading = tw(SubheadingBase)`mb-4`;
@@ -23,7 +24,7 @@ const PostImage = styled.div`
   ${props => css`background-image: url("${props.imageSrc}");`}
   ${tw`h-64 sm:h-80 bg-center bg-cover rounded-t`}
 `;
-const PostText = tw.div`flex-1 px-6 py-8` 
+const PostText = tw.div`flex-1 px-6 py-8`
 const PostTitle = tw.h6`font-bold group-hocus:text-pink-500 transition duration-300 `;
 const PostDescription = tw.p``;
 const AuthorInfo = tw.div`flex`;
@@ -83,28 +84,35 @@ export default ({
       featured: true
     },
     {
-      postImageSrc: blog4,
-      title: "A CRUD Application",
-      authorName: "Username: Admin Password: secret The first Project I have worked on. The purpose here was the build a fully reactive application that had a separate front-end and back-end. The application is capable of CRUD. Using REST, MongoDB Atlas as the storage of the data.",
-      url: "https://salt-admin.herokuapp.com/§"
+      postImageSrc:
+        blog6,
+      title: "Admin Dashboard Example",
+      authorName: "Build a dashboard to control the frontend and Backend at the same time. Built with react and 'Material UI.",
+      url: "https://sarkarprotik.github.io/dashboard/",
     },
+    // {
+    //   postImageSrc: blog4,
+    //   title: "A CRUD Application",
+    //   authorName: "Username: Admin Password: secret The first Project I have worked on. The purpose here was the build a fully reactive application that had a separate front-end and back-end. The application is capable of CRUD. Using REST, MongoDB Atlas as the storage of the data.",
+    //   url: "https://salt-admin.herokuapp.com/§"
+    // },
     {
       postImageSrc:
-      blog3,
+        blog3,
       title: "A Simplified Instagram Clone",
       authorName: "Built on React-Native and hosted on Appetize. Heres a showcase of how React Native can be used to build almost anything",
       url: "https://appetize.io/app/rv441pymkgjgv7tv00ywbrxnb8?device=iphone6s&scale=100&orientation=portrait&osVersion=11.4&deviceColor=black"
     },
     {
       postImageSrc:
-      blog2,
+        blog2,
       title: "An Okay To-do App",
       authorName: "Built with React, Typescript & Redux. This is an example of using Local Storage to store form data for a returning Customer. ",
       url: "https://sarkarprotik.github.io/bynk183/"
     },
     {
       postImageSrc:
-      blog1,
+        blog1,
       title: "A Terrible Example of A Todo",
       authorName: "Heres one of the first To-Do app I've built a long time ago when I just started Coding",
       url: "https://sarkarprotik.github.io/Simple-React-TypeScript-ToDo/"
