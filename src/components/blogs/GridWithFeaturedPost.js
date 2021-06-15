@@ -73,6 +73,13 @@ export default ({
   posts = [
     {
       postImageSrc:
+        blog88,
+      title: "Memory Game",
+      authorName: "A functional Memory Game built using p5.js and deployed using Netlify",
+      url: "https://pmgs.netlify.app/"
+    },
+    {
+      postImageSrc:
         blog,
       authorImageSrc:
         "https://miro.medium.com/fit/c/256/256/2*IAHCMMz5FSeOkFPr1xa4QQ.jpeg",
@@ -118,13 +125,7 @@ export default ({
       authorName: "Heres one of the first To-Do app I've built a long time ago when I just started Coding",
       url: "https://sarkarprotik.github.io/Simple-React-TypeScript-ToDo/"
     },
-    {
-      postImageSrc:
-        blog88,
-      title: "Memory Game",
-      authorName: "A functional Memory Game built using p5.js and deployed using Netlify",
-      url: "https://pmgs.netlify.app/"
-    },
+    
   ]
 }) => {
   return (

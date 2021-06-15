@@ -74,8 +74,32 @@ export default () => {
         <Content>
           <Heading>
             Hi! I'm Protik Sarkar
-            <div style={{backgroundColor: '',  borderRadius: '50%'}}>
-              <img style={{display:'inline', width: 100, height: 'audo', justifyContent: 'center', alignItems: 'center', backgroundColor: '', borderRadius: '10%'}} src={'https://res.cloudinary.com/dbcjs8bca/image/upload/v1593472086/large_image_85a4339b93.png'} />
+            <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'center'}}>
+            <div style={{ backgroundColor: '', borderRadius: '50%' }}>
+              <a href="https://www.instagram.com/protik_s/">
+                <img style={{ display: 'inline', width: 100, height: 'audo', justifyContent: 'center', alignItems: 'center', backgroundColor: '', borderRadius: '10%' }} src={'https://media.giphy.com/media/VgI9SujRQ4GlgsWzQv/giphy.gif'} />
+              </a>
+            </div>
+            <div style={{ backgroundColor: '', borderRadius: '50%' }}>
+              <a href="https://twitter.com/ProtikSarkar1/">
+                <img style={{ display: 'inline', width: 100, height: 'audo', justifyContent: 'center', alignItems: 'center', backgroundColor: '', borderRadius: '10%' }} src={'https://media.giphy.com/media/ktfqJcs9AVf4HeDLFK/giphy.gif'} />
+              </a>
+            </div>
+            <div style={{ backgroundColor: '', borderRadius: '50%' }}>
+              <a href="https://www.tiktok.com/@protiktoks/">
+                <img style={{ display: 'inline', width: 100, height: 'audo', justifyContent: 'center', alignItems: 'center', backgroundColor: '', borderRadius: '10%' }} src={'https://media.giphy.com/media/l7ebWVz4mINbriGuCe/giphy.gif'} />
+              </a>
+            </div>
+            <div style={{ backgroundColor: '', borderRadius: '50%' }}>
+              <a href="https://www.linkedin.com/in/protik-sarkar/">
+                <img style={{ display: 'inline', width: 100, height: 'audo', justifyContent: 'center', alignItems: 'center', backgroundColor: '', borderRadius: '10%' }} src={'https://media.giphy.com/media/HQTYdpx1yhxWpugAi2/giphy.gif'} />
+              </a>
+            </div>
+            <div style={{ backgroundColor: '', borderRadius: '50%' }}>
+              <a href="https://github.com/sarkarprotik/">
+                <img style={{ display: 'inline', width: 100, height: 'audo', justifyContent: 'center', alignItems: 'center', backgroundColor: '', borderRadius: '10%' }} src={'https://media.giphy.com/media/CwTvSiWflgCGKgz5eb/giphy.gif'} />
+              </a>
+            </div>
             </div>
             I'm a Frontend Developer based in Stockholm
           </Heading>
