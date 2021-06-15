@@ -12,6 +12,7 @@ import blog2 from '../../images/blog2.png'
 import blog3 from '../../images/blog3.png'
 import blog4 from '../../images/blog4.png'
 import blog6 from '../../images/blog6.png'
+import blog88 from '../../images/blog88.png'
 
 const HeadingContainer = tw.div`text-center`;
 const Subheading = tw(SubheadingBase)`mb-4`;
@@ -116,7 +117,14 @@ export default ({
       title: "A Terrible Example of A Todo",
       authorName: "Heres one of the first To-Do app I've built a long time ago when I just started Coding",
       url: "https://sarkarprotik.github.io/Simple-React-TypeScript-ToDo/"
-    }
+    },
+    {
+      postImageSrc:
+        blog88,
+      title: "Memory Game",
+      authorName: "A functional Memory Game built using p5.js and deployed using Netlify",
+      url: "https://pmgs.netlify.app/"
+    },
   ]
 }) => {
   return (
