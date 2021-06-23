@@ -77,7 +77,7 @@ export default ({
       gol,
       title: "Game of Life",
       authorName: "A basic implementation of John Conways Game of Life built using p5.js",
-      url: "https://https://psgol.netlify.app/"
+      url: "https://psgol.netlify.app/"
     },
     {
       postImageSrc:
