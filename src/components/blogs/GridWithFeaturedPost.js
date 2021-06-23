@@ -13,6 +13,7 @@ import blog3 from '../../images/blog3.png'
 import blog4 from '../../images/blog4.png'
 import blog6 from '../../images/blog6.png'
 import blog88 from '../../images/blog88.png'
+import gol from '../../images/gol.png'
 
 const HeadingContainer = tw.div`text-center`;
 const Subheading = tw(SubheadingBase)`mb-4`;
@@ -73,10 +74,10 @@ export default ({
   posts = [
     {
       postImageSrc:
-        blog88,
-      title: "Memory Game",
-      authorName: "A functional Memory Game built using p5.js and deployed using Netlify",
-      url: "https://pmgs.netlify.app/"
+      gol,
+      title: "Game of Life",
+      authorName: "A basic implementation of John Conways Game of Life built using p5.js",
+      url: "https://https://psgol.netlify.app/"
     },
     {
       postImageSrc:
@@ -90,6 +91,13 @@ export default ({
       authorProfile: "Medium",
       url: "https://medium.com/@sarkar.protik",
       featured: true
+    },
+    {
+      postImageSrc:
+        blog88,
+      title: "Memory Game",
+      authorName: "A functional Memory Game built using p5.js and deployed using Netlify",
+      url: "https://pmgs.netlify.app/"
     },
     {
       postImageSrc:
