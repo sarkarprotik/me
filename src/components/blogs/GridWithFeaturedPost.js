@@ -10,7 +10,7 @@ import blog from '../../images/blog.jpg'
 import blog1 from '../../images/blog1.png'
 import blog2 from '../../images/blog2.png'
 import blog3 from '../../images/blog3.png'
-import blog4 from '../../images/blog4.png'
+import salty from '../../images/salty.png'
 import blog6 from '../../images/blog6.png'
 import blog88 from '../../images/blog88.png'
 import gol from '../../images/gol.png'
@@ -80,12 +80,6 @@ export default ({
       url: "https://www.jointacademy.com/"
     },
     {
-      postImageSrc: gol,
-      title: "Game of Life",
-      authorName: "A basic implementation of John Conways Game of Life built using p5.js",
-      url: "https://psgol.netlify.app/"
-    },
-    {
       postImageSrc:
         blog,
       authorImageSrc:
@@ -97,6 +91,12 @@ export default ({
       authorProfile: "Medium",
       url: "https://medium.com/@sarkar.protik",
       featured: true
+    },
+    {
+      postImageSrc: gol,
+      title: "Game of Life",
+      authorName: "A basic implementation of John Conways Game of Life built using p5.js",
+      url: "https://psgol.netlify.app/"
     },
     {
       postImageSrc:
@@ -112,12 +112,12 @@ export default ({
       authorName: "Build a dashboard to control the frontend and Backend at the same time. Built with react and 'Material UI.",
       url: "https://sarkarprotik.github.io/dashboard/",
     },
-    // {
-    //   postImageSrc: blog4,
-    //   title: "A CRUD Application",
-    //   authorName: "Username: Admin Password: secret The first Project I have worked on. The purpose here was the build a fully reactive application that had a separate front-end and back-end. The application is capable of CRUD. Using REST, MongoDB Atlas as the storage of the data.",
-    //   url: "https://salt-admin.herokuapp.com/§"
-    // },
+    {
+      postImageSrc: salty,
+      title: "A CRUD Application",
+      authorName: "Username: Admin Password: secret The first Project I have worked on. The purpose here was the build a fully reactive application that had a separate front-end and back-end. The application is capable of CRUD. Using REST, MongoDB Atlas as the storage of the data.",
+      url: "https://salt-admin.herokuapp.com/§"
+    },
     {
       postImageSrc:
         blog3,
