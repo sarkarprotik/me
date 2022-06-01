@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import "tailwindcss/dist/base.css";
 import "styles/globalStyles.css";
 import React from "react";
