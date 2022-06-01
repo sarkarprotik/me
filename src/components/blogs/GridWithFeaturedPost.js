@@ -14,6 +14,7 @@ import blog4 from '../../images/blog4.png'
 import blog6 from '../../images/blog6.png'
 import blog88 from '../../images/blog88.png'
 import gol from '../../images/gol.png'
+import ja from '../../images/ja.svg'
 
 const HeadingContainer = tw.div`text-center`;
 const Subheading = tw(SubheadingBase)`mb-4`;
@@ -73,8 +74,13 @@ export default ({
   description = "Some Things I've Worked on",
   posts = [
     {
-      postImageSrc:
-      gol,
+      postImageSrc: ja,
+      title: "Arthos Therapeutics",
+      authorName: "Treat osteoarthritis and back pain directly on your mobile",
+      url: "https://www.jointacademy.com/"
+    },
+    {
+      postImageSrc: gol,
       title: "Game of Life",
       authorName: "A basic implementation of John Conways Game of Life built using p5.js",
       url: "https://psgol.netlify.app/"
